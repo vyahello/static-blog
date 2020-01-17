@@ -2,6 +2,7 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
 [![Actions Status](https://github.com/vyahello/static-blog/workflows/Code%20analysis/badge.svg)](https://github.com/vyahello/static-blog/actions)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/12678110-3433-4e2b-b92b-7a2ed3f9dd63/deploy-status)](https://app.netlify.com/sites/vyahello/deploys)
 
 # Static blog
 
