@@ -9,6 +9,8 @@
 This project contains static blog site powered by [pelican](https://github.com/getpelican/pelican) static site generator
 and [netlify](https://www.netlify.com) hosting source.
 
+Please check https://vyahello.netlify.com blog see how it looks like.
+
 ## Tools
 - python 3.8
 - [pelican](https://github.com/getpelican/pelican)
