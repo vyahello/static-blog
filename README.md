@@ -1,7 +1,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
-[![Actions Status](https://github.com/vyahello/static-blog/workflows/code-analysis/badge.svg)](https://github.com/vyahello/static-blog/actions)
+[![Actions Status](https://github.com/vyahello/static-blog/workflows/Code%20analysis/badge.svg)](https://github.com/vyahello/static-blog/actions)
 
 # Static blog
 
@@ -48,7 +48,7 @@ Then please open [localhost:5001](http://localhost:5001) endpoint.
 
 ### CI
 
-Project contains CI support in terms of running static code analysis procedure followed by [.travis.yml](.travis.yml) file.
+Project contains CI support in terms of running static code analysis procedure followed by [code-analysis.yml](.github/workflows/code-analysis.yml) file.
 
 ### Meta
 

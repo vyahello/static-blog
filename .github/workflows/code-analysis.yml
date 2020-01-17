@@ -1,4 +1,4 @@
-name: Python code analysis
+name: Code analysis
 on: [push]
 jobs:
   build:
