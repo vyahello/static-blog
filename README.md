@@ -1,7 +1,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
-[![Build Status](https://travis-ci.org/vyahello/static-blog.svg?branch=master)](https://travis-ci.org/vyahello/static-blog)
+[![Actions Status](https://github.com/vyahello/static-blog/workflows/code-analysis/badge.svg)](https://github.com/vyahello/static-blog/actions)
 
 # Static blog
 
@@ -27,7 +27,7 @@ Move to output content folder and launch server locally:
 ```bash
 ➜ cd output
 ➜ python -m http.server 5001
-...
+Serving HTTP on :: port 5001 (http://[::]:5001/) ...
 ```
 Then please open [localhost:5001](http://localhost:5001) endpoint.
 
@@ -35,14 +35,14 @@ Then please open [localhost:5001](http://localhost:5001) endpoint.
 
 ### Generate site
 
-- Start with `pelican--quickstart` tool to configure project:
+- Start with `pelican-quickstart` tool to configure project:
 ```bash
-➜ pelican--quickstart
+➜ pelican-quickstart
 ```
 - Create markdown page in [content/](content/) folder
 - Generate site:
 ```bash
-➜ python content
+➜ pelican content
 ```
 - Take a look at generated files under [output/](output/) folder
 
