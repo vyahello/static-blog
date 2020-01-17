@@ -1,11 +1,11 @@
 Title: Initial post
 Date: 2020-01-17 14:00
-Category: Python
-Tags: Python, News
+Category: Networking
+Tags: Networking, Tips, Tricks
 Slug: initial
 Authors: Vladimir
 Summary: This is a summary of the first post written for Pelican Blog
 
-## Tutorial
+## Command line tricks
 
-Nothing much for the first testing post
+Nothing much for the first testing post (will update with corresponding content soon)
