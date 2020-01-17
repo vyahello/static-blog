@@ -45,6 +45,7 @@ Then please open [localhost:5001](http://localhost:5001) endpoint.
 ➜ pelican content
 ```
 - Take a look at generated files under [output/](output/) folder
+- Build site on [netlify](https://www.netlify.com) (note it supports either `3.7` or `3.5` versions)
 
 ### CI
 
