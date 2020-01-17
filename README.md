@@ -23,9 +23,32 @@ and [netlify](https://www.netlify.com) hosting source.
 
 ## Usage
 
-- 
-- 
-- 
+Move to output content folder and launch server locally:
+```bash
+➜ cd output
+➜ python -m http.server 5001
+...
+```
+Then please open [localhost:5001](http://localhost:5001) endpoint.
+
+## Development notes
+
+### Generate site
+
+- Start with `pelican--quickstart` tool to configure project:
+```bash
+➜ pelican--quickstart
+```
+- Create markdown page in [content/](content/) folder
+- Generate site:
+```bash
+➜ python content
+```
+- Take a look at generated files under [output/](output/) folder
+
+### CI
+
+Project contains CI support in terms of running static code analysis procedure followed by [.travis.yml](.travis.yml) file.
 
 ### Meta
 
