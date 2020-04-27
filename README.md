@@ -6,31 +6,37 @@
 
 # Static blog
 
-This project contains static blog site powered by [pelican](https://github.com/getpelican/pelican) static site generator
-and [netlify](https://www.netlify.com) hosting source.
+> This project contains static blog template powered by [pelican](https://github.com/getpelican/pelican) static site generator 
+> and [netlify](https://www.netlify.com) hosting source.
 
-Please check https://vyahello.netlify.com blog see how it looks like.
+_Note: please take into account that it is built for demo purpose but not for actual usage. 
+Use it as a template source._
 
 ## Tools
-- python 3.8
-- [pelican](https://github.com/getpelican/pelican)
+- front-end
   - html5
   - css3
   - bootstrap3
-  - [markdown](https://pypi.org/project/Markdown)
-- [travisCI](https://travis-ci.org/)
-- [netlify](https://www.netlify.com/)
+- back-end
+  - python 3.6 | 3.7 | 3.8
+  - [pelican](https://github.com/getpelican/pelican)
+- [netlify](https://www.netlify.com/) hosting
 - code analysis
   - [black](https://black.readthedocs.io/en/stable/)
   - [pylint](https://www.pylint.org/)
+  - [travis](https://travis-ci.org/) CI
+  - github CI
 
 ## Usage
 
+### Quick start
+
+Please check https://vyahello.netlify.com to see how it looks like.
+
 Move to output content folder and launch server locally:
 ```bash
-➜ cd output
-➜ python -m http.server 5001
-Serving HTTP on :: port 5001 (http://[::]:5001/) ...
+cd output
+python -m http.server 5001
 ```
 Then please open [localhost:5001](http://localhost:5001) endpoint.
 
@@ -38,14 +44,14 @@ Then please open [localhost:5001](http://localhost:5001) endpoint.
 
 ### Generate site
 
-- Start with `pelican-quickstart` tool to configure project:
+- Configure project:
 ```bash
-➜ pelican-quickstart
+pelican-quickstart
 ```
 - Create markdown page in [content/](content/) folder
 - Generate site:
 ```bash
-➜ pelican content
+pelican content
 ```
 - Take a look at generated files under [output/](output/) folder
 - Build site on [netlify](https://www.netlify.com) (note it supports either `3.7` or `3.5` versions)
@@ -56,11 +62,12 @@ Project contains CI support in terms of running static code analysis procedure f
 
 ### Meta
 
-Author – Volodymyr Yahello vyahello@gmail.com
+Author – _Volodymyr Yahello_.
 
 Distributed under the `MIT` license. See [LICENSE](LICENSE.md) for more information.
 
 You can reach out me at:
+* [vyahello@gmail.com](vyahello@gmail.com)
 * [https://github.com/vyahello](https://github.com/vyahello)
 * [https://www.linkedin.com/in/volodymyr-yahello-821746127](https://www.linkedin.com/in/volodymyr-yahello-821746127)
 
