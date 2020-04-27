@@ -13,6 +13,7 @@ run-black-analysis() {
 
 main() {
     run-pylint-analysis && run-black-analysis
+    return 0
 }
 
 

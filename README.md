@@ -1,6 +1,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE.md)
+[![Build Status](https://travis-ci.org/vyahello/static-blog.svg?branch=master)](https://travis-ci.org/vyahello/static-blog)
 [![Actions Status](https://github.com/vyahello/static-blog/workflows/Code%20analysis/badge.svg)](https://github.com/vyahello/static-blog/actions)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/12678110-3433-4e2b-b92b-7a2ed3f9dd63/deploy-status)](https://app.netlify.com/sites/vyahello/deploys)
 
@@ -25,13 +26,15 @@ Use it as a template source._
   - [black](https://black.readthedocs.io/en/stable/)
   - [pylint](https://www.pylint.org/)
   - [travis](https://travis-ci.org/) CI
-  - github CI
+  - [github](https://github.com/vyahello/static-blog/actions?query=workflow%3A%22Code+analysis%22) CI
 
 ## Usage
 
 ### Quick start
 
 Please check https://vyahello.netlify.com to see how it looks like.
+
+### Source code
 
 Move to output content folder and launch server locally:
 ```bash
