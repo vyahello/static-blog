@@ -1,5 +1,5 @@
 pelican==4.2.0
 markdown==3.1.1
 livereload==2.6.1
-tornado==6.0.3
+tornado==6.3.2
 invoke==1.4.0
